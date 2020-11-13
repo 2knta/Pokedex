@@ -17,6 +17,7 @@ import {HTTP} from '@ionic-native/http/ngx';
 import {Camera} from '@ionic-native/camera/ngx';
 import {PipesModule} from './pipes/pipes.module';
 
+import {FirebaseX} from '@ionic-native/firebase-x/ngx';
 
 @NgModule({
   declarations: [AppComponent],
@@ -25,7 +26,7 @@ import {PipesModule} from './pipes/pipes.module';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: RouteReuseStrategy, useClass: IonicRouteStrategy}, PokeApiService, HTTP, Camera, PipesModule
+    {provide: RouteReuseStrategy, useClass: IonicRouteStrategy}, PokeApiService, HTTP, Camera, PipesModule, FirebaseX
   ],
   exports: [
   ],

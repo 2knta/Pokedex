@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:234387031515:android:a7639a1168ebdaba6a93fe",
+        "mobilesdk_app_id": "1:234387031515:android:a022907e76dd4ce16a93fe",
         "android_client_info": {
-          "package_name": "io.ionic.starter"
+          "package_name": "io.ionic.alvaro"
         }
       },
       "oauth_client": [
